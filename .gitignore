@@ -1,0 +1,74 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+
+# iOS/CocoaPods related
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework/
+ios/Flutter/App.framework/
+ios/Flutter/Flutter.podspec
+ios/.generated/
+
+# macOS build artifacts
+macos/Flutter/ephemeral/
+
+# Android related
+**/android/app/*.apk
+**/android/app/*.aar
+android/app/debug
+android/app/profile
+android/app/release
+
+# Windows build artifacts
+windows/flutter/ephemeral/
+
+# Linux build artifacts
+linux/flutter/ephemeral/
+
+# Web build artifacts
+web/flutter/ephemeral/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Firebase-related files
+google-services.json
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+
+# Environment variables
+*.env
+!assets/.env
